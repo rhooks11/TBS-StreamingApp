@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  /* TBS brand — matches TBS-RecruiterWebApp (--color-primary: #FF8A1F) */
+  --color-brand-500: #ff8a1f;
+  --color-brand-600: #e87a10;
+  --color-ink-900: #0b1220;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
